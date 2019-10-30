@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html>
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FÍH</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-4/css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="css/bootstrap/bootstrap-4/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <!-- justify-content-around prufa fyrir navbar-->
+    <section class="FIH-nav">
+        <nav class="navbar navbar-light navbar-expand-md bg-white ">
+            <a href="/" class="navbar-brand d-flex w-40 mr-auto"><img src="img/TFIH_logo_small.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                <ul class="navbar-nav w-100 justify-content-end">
+                    <li class="nav-item">
+                        <button class="btn btn-white" role="button" type="button" id="FIH-umsoknir-btn">
+                            <h4>Umsóknir</h4>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-white" href="umskolann.html" role="button" id="FIH-umskolann-btn">
+                            <h4>Um skólann</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-white" role="button" type="button" id="FIH-adofinni-btn">
+                            <h4>Á döfinni</h4>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-white" role="button" type="button" id="FIH-namid-btn">
+                            <h4>Námið</h4>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-white" role="button" type="button" id="FIH-hafasamband-btn">
+                            <h4>Hafa samband</h4>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-white" role="button" type="button" id="FIH-viska-btn">
+                                    <h4>Viska</h4>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="w-30">
+
+            </div>
+        </nav>
+    </section>
+
+    <!-- /NavBar-->
+
+
+
+    <!-- Navbar dropdown -->
+    <section class="" id="FIH-navbar-dropdown">
+        <!-- Dropdown umsóknir-->
+        <div id="dropdown-umsoknir" class="d-none">
+            <div class="container-fluid bg-white">
+                <h3><strong>Umsóknir</strong></h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Sækja um nám við FÍH</a>
+                    </li>
+                    <li class="list-group-item"><a class="btn btn-white btn-link text-dark" href="#" role="button">Algengar spurningar varðandi námið</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /Dropdown umsóknir-->
+
+        <!-- Dropdown Um skólann -->
+        <div id="dropdown-umskolann" class="d-none">
+            <div class="container-fluid bg-white">
+                <h3><strong>Um skólann</strong></h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Um skólann</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Stjórn FÍH</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Kennarar</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Nemendafélag FÍH</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Jafnréttisáætlun FÍH</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- /Dropdown um skólann -->
+
+        <!-- Dropdown Á döfinni -->
+        <div id="dropdown-adofinni" class="d-none">
+            <div class="container-fluid bg-white">
+                <h3><strong>Á döfinni</strong></h3>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Tónleikar</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Sýningar</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Masterclassar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- /Dropdown Á döfinni -->
+
+        <!-- Dropdown Námið -->
+        <div id="dropdown-namid" class="d-none">
+            <div class="container-fluid bg-white">
+                <div>
+                    <h3><strong>Námið</strong></h3>
+                    <p>Upplýsingar um nám sem FÍH býður upp á</p>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Námsstig</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Fræðigreinar</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Bóklegar greinar FÍH/MÍT</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Námskeið?</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /Dropdown Námið -->
+
+        <!-- Dropdown Hafa samband -->
+        <div id="dropdown-hafasamband" class="d-none">
+            <div class="container-fluid bg-white">
+                <h3>
+                    <Strong>Hafa Samband</Strong>
+                </h3>
+                <p>Við erum stödd í Rauðagerði 84 </p><br>
+                <p>Sími: 55888444 </p>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Nánari upplýsingar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /Dropdown Hafa samband -->
+
+    </section>
+    <!-- /Navbar dropdown-->
+    <section id="FIH-sax-header">
+        <div class="">
+            <img id="FIH-saxheim-image" src="img/Sax_heim.jpg">
+        </div>
+    </section>
+
+    <!-- Content-->
+    <section id="FIH-content">
+        <div id="FIH-umskolann-container">
+            <div class="d-flex flex-column align-items-start">
+                <a class="btn btn-white" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          Saga skólans
+                        </a>
+                <button class="btn btn-white" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Einhvað annað 
+                        </button>
+            </div>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Á síðari hluta fimmta áratugarins stofnaði Félag Íslenskra Hljómlistarmanna tónlistarskóla, sem starfaði um eins árs skeið. Á þessum árum voru engin lög til um tónlistarskóla og fjárstuðningur við slíkar stofnanir í lágmarki. Árið 1975 voru sett lög um
+                    fjárhagslegan stuðning við tónlistarskóla. Með tilkomu þessara laga rann upp mikið gróskuskeið í tónlistarfræðslu og tónlistariðkun Íslendinga, sem meðal annars hefur alið af sér um 70 tónlistarskóla vítt og breitt um landið, þjóðinni
+                    til ómetanlegs gagns og yndis. Forystumenn Félags Íslenskra Hljómlistarmanna gleymdu aldrei tónlistarskóladraumnum og á aðalfundi í mars 1978 var samþykkt að endurvekja tónlistarskóla félagsins. þessi samþykkt var síðan áréttuð á aðalfundi
+                    ári seinna. Þá þegar var hafinn undirbúningur skólahaldsins og stóð hann í rúmt ár. Fyrsti skólastjóri var ráðinn Sigurður I. Snorrason og starfaði hann til 1988 er núverandi skólastjóri, Björn Th. Árnason, tók við. Við val á námsbrautum
+                    var reynt að bera niður þar sem þörfin þótti mest. Var ákveðið að skipta skólanum í þrjár deildir: 1. Almenna deild með hefðbundna námsbraut. 2. Jazzdeild, en starfræksla slíkrar námsbrautar var þá óþekkt á Íslandi. 3. Fullorðinsfræðsludeild,
+                    sem hugsuð var sem menntunarmöguleiki í tónlist fyrir alþýðu manna. Rekstur almennrar deildar og jazzdeildar gekk vel frá upphafi. Gerðar voru nokkrar tilraunir til að starfrækja fullorðinsfræðsludeild, því miður með litlum árangri
+                    og var hún lögð niður um óákveðinn tíma. Árið 1990, á tíu ára afmæli skólans, þótti rétt að endurskoða kennslustefnu og uppbyggingu skólans með tilliti til fenginnar reynslu. Gamla deildakerfið var lagt niður og skólanum skipt í tvær
+                    nýjar deildir, grunndeild og framhaldsdeild. Grunndeild var hugsuð fyrir undirbúningsnám, en framhaldsdeild fyrir lengra komna nemendur. Í framhaldsdeild var upphaflega boðið upp á þrjár námsbrautir: jazzbraut, sígilda braut og rokkbraut.
+                    Aðsókn að rokkbraut var því miður mjög dræm og var því ákveðið að sameina jazz- og rokkbraut. Innan þeirrar brautar geta nemendur ýmist lagt áherslu á jazz- eða rokktónlist. Tónlistarskóli F.Í.H. tók formlega til starfa þann 19. september
+                    1980. Hann starfaði fyrstu árin í húsnæði Félags Íslenskra Hljómlistarmanna að Brautarholti 4. Árið 1989 festu félagið og skólinn kaup á eignum Ingvars Helgasonar h/f að Rauðagerði 27, þar hefur skólinn starfað síðan haustið 1989.
+                    Þó að enn sé verið að betrumbæta, er öll aðstaða þegar orðin mjög góð. Frá því að skólinn flutti í Rauðagerði hafa ýmsir nýir þættir bæst við skólastarfið. Strax árið 1989 var komið á fót hljóðritasafni sem geymir geisladiska, hljómplötur
+                    og snældur. Hlustunaraðstöðu fyrir nemendur var einnig komið upp sama ár og hún endurbætt verulega vorið 1995. Safninu hefur smám saman vaxið fiskur um hrygg, enda hafa innkaup verið gerð árlega. Árið 1994 var byrjað að kaupa tónleika-
+                    og kennsluefni á myndböndum og ári síðar var komið upp skjá aðstöðu fyrir nemendur. Fullkomnu hljóðveri var komið upp árið 1994 og kennsla hafin í upptökum, en nú eru allir tónleikar skólans teknir upp. Það er stefna stjórnenda skólans
+                    að halda áfram uppbyggingu á þessum sviðum. Þannig er útlit fyrir að fullkominn ljósabúnaður verði kominn í salinn um það bil sem þessi námsvísir kemur út, haustið 1995, á 15 ára afmæli skólans. Þá er ekki loku fyrir það skotið að
+                    nemendur, sem stíga sín fyrstu spor í skólanum haustið 1995 eigi eftir að ganga um sali nýbyggingar félags og skóla við Rauðagerði.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Content-->
+
+    <!-- Footer -->
+    <section id="FIH-footer-container">
+        <div class="container-fluid" style="background-color: #ffffff; height: 300px; padding-top: 2%;">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 d-flex justify-content-around align-items-center">
+                    <div class="d-flex flex-row">
+                        <div>
+                            <img src="img/TFIH_logo_small.jpg">
+                            <div>
+                                <h2>Tónlistarskóli</h3>
+                                    <h1 style="margin-top: -5%;">FÍH</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dropdown? -->
+                    <div class="pt-1">
+                        <p>Rauðagerði 27</p>
+                        <p>115 Reykjavík</p>
+                        <p>Sími: 5658857</p>
+                        <p>Opnunartímar skrifstofu TFÍH:</p>
+                        <p>Alla virka daga frá kl: 13-17</p>
+                        <p>Ritari: Júlía Guðlaugsdóttir</p>
+                        <p>Netfang: julia@fih.is</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="d-flex justify-content-around">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <a href="#" role="button" class="btn btn-white">Hafa samband</a>
+                            </li>
+                            <li class="list-group-item"><a href="#" role="button" class="btn btn-white">Gagnlegur linkur</a></li>
+                            <li class="list-group-item"><a href="#" role="button" class="btn btn-white">Annar Gagnlegur linkur</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /Footer-->
+
+    <script src="js/main.js" async defer></script>
+</body>
+
+</html>
