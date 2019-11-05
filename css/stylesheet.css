@@ -64,3 +64,13 @@ hr {
 }
 
 #FIH-footer-logo {}
+
+#dropdown {
+    background: url(../img/hvitur.png);
+    opacity: 0.9;
+}
+
+.sidebar {
+    background: url(../img/hvitur.png);
+    opacity: 0.8;
+}

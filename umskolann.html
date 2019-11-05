@@ -22,43 +22,48 @@
 <body>
     <!-- Nav Bar -->
     <!-- justify-content-around prufa fyrir navbar-->
-    <section class="FIH-nav">
+    <div class="FIH-nav" id="FIH-nav">
         <nav class="navbar navbar-light navbar-expand-md bg-white ">
             <a href="/" class="navbar-brand d-flex w-40 mr-auto"><img src="img/TFIH_logo_small.jpg"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+                <span class="navbar-toggler-icon"></span>
+                </button>
             <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
                 <ul class="navbar-nav w-100 justify-content-end">
                     <li class="nav-item">
                         <button class="btn btn-white" role="button" type="button" id="FIH-umsoknir-btn">
-                            <h4>Umsóknir</h4>
-                        </button>
+                                <h4>Umsóknir</h4>
+                            </button>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-white" href="umskolann.html" role="button" id="FIH-umskolann-btn">
+                        <a class="btn btn-white" role="button" href="/umskolann.html" id="FIH-umskolann-btn">
                             <h4>Um skólann</h4>
                         </a>
                     </li>
                     <li class="nav-item">
                         <button class="btn btn-white" role="button" type="button" id="FIH-adofinni-btn">
-                            <h4>Á döfinni</h4>
-                        </button>
+                                <h4>Á döfinni</h4>
+                            </button>
                     </li>
                     <li class="nav-item">
                         <button class="btn btn-white" role="button" type="button" id="FIH-namid-btn">
-                            <h4>Námið</h4>
-                        </button>
+                                <h4>Námið</h4>
+                            </button>
                     </li>
                     <li class="nav-item">
                         <button class="btn btn-white" role="button" type="button" id="FIH-hafasamband-btn">
-                            <h4>Hafa samband</h4>
-                        </button>
+                                <h4>Hafa samband</h4>
+                            </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-white" role="button" type="button" id="FIH-algengarspurningar-btn">
+                                        <h4>Algengar Spurningar</h4>
+                                    </button>
                     </li>
                     <li class="nav-item">
                         <button class="btn btn-white" role="button" type="button" id="FIH-viska-btn">
-                                    <h4>Viska</h4>
-                        </button>
+                                        <h4>Viska</h4>
+                            </button>
                     </li>
                 </ul>
             </div>
@@ -66,123 +71,164 @@
 
             </div>
         </nav>
-    </section>
-
-    <!-- /NavBar-->
 
 
+        <!-- /NavBar-->
 
-    <!-- Navbar dropdown -->
-    <section class="" id="FIH-navbar-dropdown">
-        <!-- Dropdown umsóknir-->
-        <div id="dropdown-umsoknir" class="d-none">
-            <div class="container-fluid bg-white">
-                <h3><strong>Umsóknir</strong></h3>
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Sækja um nám við FÍH</a>
-                    </li>
-                    <li class="list-group-item"><a class="btn btn-white btn-link text-dark" href="#" role="button">Algengar spurningar varðandi námið</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- /Dropdown umsóknir-->
 
-        <!-- Dropdown Um skólann -->
-        <div id="dropdown-umskolann" class="d-none">
-            <div class="container-fluid bg-white">
-                <h3><strong>Um skólann</strong></h3>
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Um skólann</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Stjórn FÍH</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Kennarar</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Nemendafélag FÍH</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Jafnréttisáætlun FÍH</a>
-                    </li>
 
-                </ul>
-            </div>
-        </div>
-        <!-- /Dropdown um skólann -->
+        <!-- Navbar dropdown -->
+        <section class="" id="FIH-navbar-dropdown">
+            <!-- Dropdown umsóknir-->
+            <div id="dropdown">
+                <div id="dropdown-umsoknir" class="d-none ">
+                    <div class="container-fluid  d-flex justify-content-around">
+                        <div class="row">
+                            <div class="col p-3">
+                                <h3><strong>Umsóknir</strong></h3>
+                                <p>Hér má nálgast upplýsingar um umsóknir við skólann og einnig algengar spurningar varðandi námið.</p>
+                            </div>
+                            <div class="col p-3">
 
-        <!-- Dropdown Á döfinni -->
-        <div id="dropdown-adofinni" class="d-none">
-            <div class="container-fluid bg-white">
-                <h3><strong>Á döfinni</strong></h3>
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Tónleikar</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Sýningar</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Masterclassar</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Sækja um nám við FÍH</a>
+                                    </li>
+                                    <li class="list-group-item"><a class="btn btn-white btn-link text-dark" href="#" role="button">Algengar spurningar varðandi námið</a></li>
+                                </ul>
+                            </div>
 
-        <!-- /Dropdown Á döfinni -->
-
-        <!-- Dropdown Námið -->
-        <div id="dropdown-namid" class="d-none">
-            <div class="container-fluid bg-white">
-                <div>
-                    <h3><strong>Námið</strong></h3>
-                    <p>Upplýsingar um nám sem FÍH býður upp á</p>
+                        </div>
+                    </div>
                 </div>
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Námsstig</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Fræðigreinar</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Bóklegar greinar FÍH/MÍT</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Námskeið?</a>
-                    </li>
-                </ul>
             </div>
-        </div>
-        <!-- /Dropdown Námið -->
+            <!-- /Dropdown umsóknir-->
+            <!--                         <span class="border" style="margin-top: 0%; padding: 3%;"><a href="#" class="btn btn-white" role="button"><strong>Sækja um</strong></a></span>
+    -->
 
-        <!-- Dropdown Hafa samband -->
-        <div id="dropdown-hafasamband" class="d-none">
-            <div class="container-fluid bg-white">
-                <h3>
-                    <Strong>Hafa Samband</Strong>
-                </h3>
-                <p>Við erum stödd í Rauðagerði 84 </p><br>
-                <p>Sími: 55888444 </p>
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <a class="btn btn-white btn-link text-dark" href="#" role="button">Nánari upplýsingar</a>
-                    </li>
-                </ul>
+            <!-- Dropdown Um skólann -->
+            <div id="dropdown">
+                <div id="dropdown-umskolann" class="d-none">
+                    <div class="container-fluid ">
+                        <h3><strong>Um skólann</strong></h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Um skólann</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Stjórn FÍH</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Kennarar</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Nemendafélag FÍH</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Jafnréttisáætlun FÍH</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- /Dropdown Hafa samband -->
+            <!-- /Dropdown um skólann -->
 
-    </section>
+            <!-- Dropdown Á döfinni -->
+            <div id="dropdown">
+                <div id="dropdown-adofinni" class="d-none">
+                    <div class="container-fluid ">
+                        <h3><strong>Á döfinni</strong></h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Tónleikar</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Sýningar</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Masterclassar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- /Dropdown Á döfinni -->
+
+            <!-- Dropdown Námið -->
+            <div id="dropdown">
+                <div id="dropdown-namid" class="d-none">
+                    <div class="container-fluid ">
+                        <div>
+                            <h3><strong>Námið</strong></h3>
+                            <p>Upplýsingar um nám sem FÍH býður upp á</p>
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Námsstig</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Fræðigreinar</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Bóklegar greinar FÍH/MÍT</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Námskeið?</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /Dropdown Námið -->
+
+            <!-- Dropdown Hafa samband -->
+            <div id="dropdown">
+                <div id="dropdown-hafasamband" class="d-none">
+                    <div class="container-fluid ">
+                        <h3>
+                            <Strong>Hafa Samband</Strong>
+                        </h3>
+                        <p>Við erum stödd í Rauðagerði 84 </p><br>
+                        <p>Sími: 55888444 </p>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Nánari upplýsingar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /Dropdown Hafa samband -->
+
+            <!-- Dropdown Algengar Spurningar -->
+            <div id="dropdown">
+                <div id="dropdown-algengar-spurningar" class="d-none">
+                    <div class="container-fluid ">
+                        <h3>
+                            <Strong>Hafa Samband</Strong>
+                        </h3>
+                        <p>Við erum stödd í Rauðagerði 84 </p><br>
+                        <p>Sími: 55888444 </p>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a class="btn btn-white btn-link text-dark" href="#" role="button">Nánari upplýsingar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /Dropdown Algengar spurningar -->
+        </section>
+    </div>
     <!-- /Navbar dropdown-->
     <section id="FIH-sax-header">
         <div class="">
             <img id="FIH-saxheim-image" src="img/Sax_heim.jpg">
         </div>
     </section>
+
 
     <!-- Content-->
     <section id="FIH-content">
