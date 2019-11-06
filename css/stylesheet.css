@@ -21,6 +21,14 @@ h4 {
     -o-background-size: cover;
 }
 
+.FIH-kennarar-body {
+    background: url(../img/mixer.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 
 /*
 hr {
@@ -73,4 +81,17 @@ hr {
 .sidebar {
     background: url(../img/hvitur.png);
     opacity: 0.8;
+}
+
+nav {
+    border-width: 5px !important;
+}
+
+#FIH-kennarar-content .card {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+#FIH-kennarar-content .card:hover {
+    opacity: 1;
 }
